@@ -85,7 +85,6 @@ def all_holidays_with_bbq(holiday_hash)
       if stuff.include?("BBQ")
         bbq << day
       end
-      return bbq
     end
   end
   
