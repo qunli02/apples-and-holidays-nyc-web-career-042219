@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
                 word.capitalize
                 end
           set = set.join(" ")
-          puts "  #{set}: "
+          puts "  #{set}: #{stuff}"
         else
         puts "  #{day.capitalize}: #{stuff.join(", ")}"
         end
